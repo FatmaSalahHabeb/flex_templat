@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+      *{
+        box-sizing: border-box;
+    }
+    body{
+        counter-reset: senior_counter;
+    }
+    .parent{
+        width: 100%;
+        background-image: url(Session10_task/images/banner1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100% 100%;
+        padding: 1px;
+    }
+    .box{
+        width: 100%;
+        /* height: 1000px; */
+        margin-top: 50px;
+        display: flex;
+        text-align: center;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .box1,.box2,.box3,.box4,.box5{
+        width: calc(96%/3);
+        margin-bottom: 40px;
+        background-color: #ddd;
+        padding: 15px;
+        color: #fff;
+    }
+    h1{
+        margin-bottom: 20px;
+        color: #fff;
+    }
+    .num{
+        width: 86px;
+        height: 104px;
+        background-color: darkcyan;
+        margin: -47px auto;
+        padding: 15px;
+        margin-bottom: 2px;
+        border-radius: 50%;
+    }
+    .num1::before{
+        counter-increment: senior_counter;
+        content: counter(senior_counter);
+        font-size: 30px;
+    }
+    .num01{
+        width: 86px;
+        height: 104px;
+        background-color: darkgoldenrod;
+        margin: -47px auto;
+        padding: 15px;
+        margin-bottom: 2px; 
+        border-radius: 50%;
+    }
+    .num2::before{
+        counter-increment: senior_counter;
+        content: counter(senior_counter);
+        font-size: 30px;
+    }
+        
+    .box1{
+        background-color: darkcyan;
+    }
+    .box2{
+        background-color: darkgoldenrod;
+    }
+    .box3{
+        background-color: darkcyan;
+    
+    }
+  </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="box">
+        <div class="box1">
+            <div class="num1 num"><h1><span></span></h1></div>
+            <h1>Some text</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+            </p>
+        </div>
+        <div class="box2">
+            <div class="num2 num01"><h1><span></span></h1></div>
+            <h1>Some text</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+            </p>
+        </div>
+        <div class="box3">
+            <div class="num1 num"><h1><span></span></h1></div>
+            <h1>Some text</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+            </p>
+        </div>
+
+
+
+
+
+        <div class="box1">
+            <div class="num1 num"><h1><span></span></h1></div>
+            <h1>Some text</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+            </p>
+        </div>
+        <div class="box2">
+            <div class="num2 num01"><h1><span></span></h1></div>
+            <h1>Some text</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+            </p>
+        </div>
+        <div class="box3">
+            <div class="num1 num"><h1><span></span></h1></div>
+            <h1>Some text</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+            </p>
+        </div>
+        
+
+
+
+
+
+        <div class="box1">
+            <div class="num1 num"><h1><span></span></h1></div>
+            <h1>Some text</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+            </p>
+        </div>
+        <div class="box2">
+            <div class="num2 num01"><h1><span></span></h1></div>
+            <h1>Some text</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+            </p>
+        </div>
+        <div class="box3">
+            <div class="num1 num"><h1><span></span></h1></div>
+            <h1>Some text</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+            </p>
+        </div>
+
+
+
+        <div class="box1">
+            <div class="num1 num"><h1><span></span></h1></div>
+            <h1>Some text</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+            </p>
+        </div>
+        <div class="box2">
+            <div class="num2 num01"><h1><span></span></h1></div>
+            <h1>Some text</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+            </p>
+        </div>
+        <div class="box3">
+            <div class="num1 num"><h1><span></span></h1></div>
+            <h1>Some text</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Quos blanditiis earum quo quis delectus, quisquam molestias culpa quas distinctio atque.
+                 Laboriosam quidem facere quasi perspiciatis eveniet non cum architecto at!
+            </p>
+        </div>
+        
+    </div> 
+</div>
+
+
+
+  
+</body>
+</html>
